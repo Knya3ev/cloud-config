@@ -1,9 +1,20 @@
 server:
-  port: 8888
+  port: 8080
 
 spring:
+  application:
+    name: spring-cloud-config-server
   cloud:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Knya3ev/cloud-config.git
+#          uri: D:\JAVA projects\Work\cloud-config
+management:
+  endpoint:
+    web:
+      exposure:
+        include: refresh, bus-refresh, beans, env
+
+
+zebra: "hello"
