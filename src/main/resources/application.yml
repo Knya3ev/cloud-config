@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   application:
@@ -8,13 +8,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Knya3ev/cloud-config.git
-#          uri: D:\JAVA projects\Work\cloud-config
+#          uri: https://github.com/Knya3ev/cloud-config.git
+          uri: D:/JAVA projects/Work/cloud-config
+          search-paths: '{application}'
 management:
   endpoint:
     web:
       exposure:
         include: refresh, bus-refresh, beans, env
 
-
-zebra: "hello"

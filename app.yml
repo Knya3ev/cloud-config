@@ -1,2 +1,4 @@
 app:
-  value: 10
+  value: 20
+  count: 20
+  number: 20
