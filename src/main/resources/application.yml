@@ -8,9 +8,8 @@ spring:
     config:
       server:
         git:
-#          uri: https://github.com/Knya3ev/cloud-config.git
-          uri: D:/JAVA projects/Work/cloud-config
-          search-paths: '{application}'
+          uri: https://github.com/Knya3ev/cloud-config.git
+          search-paths: config/${application}/
 management:
   endpoint:
     web:
