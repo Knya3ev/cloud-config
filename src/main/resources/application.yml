@@ -9,7 +9,7 @@ spring:
       server:
         git:
           uri: https://github.com/Knya3ev/cloud-config.git
-          search-paths: config/${application}/
+          search-paths: config/app/, config/micro-service
 management:
   endpoint:
     web:
