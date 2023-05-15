@@ -3,5 +3,3 @@ micro-service:
   value2: 333333333
 
   value-value: 22222
-server:
-  port: 8083
